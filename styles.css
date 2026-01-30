@@ -1,2 +1,55 @@
 
 /* Your CSS Code here. */
+
+/* Your CSS Code here. */
+
+#n1{
+	background-color:whitesmoke;
+
+}
+#n1 ul{
+	background-color:gray;
+	display:flex;
+	padding:10px;
+	justify-content:space-around;
+}
+
+#n1 a{
+	color:black;
+	text-decoration:none;
+	font-size:20px;
+	
+}
+.demo{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	flex-wrap:wrap;
+	padding:20px;
+}
+.heading{
+	background-color:whitesmoke;
+	text-align:center;
+	width:100%;
+	margin-bottom:30px;
+}
+video{
+	max-width:500px;
+	width:100%;
+	border-radius:20px;
+}
+@media screen and (max-width:708px)
+{
+	#n1 ul{
+		flex-direction:column;
+		align-items:center;
+	}
+}
+	@media screen and (max-width:708px)
+{
+	.heading{
+		background-color:red;
+		font-size:100px;
+		
+	}
+}
